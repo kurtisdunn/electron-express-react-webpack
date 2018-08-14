@@ -52,18 +52,18 @@ $ npm start
                 ├── _bootstrap.scss    # Bootstrap Modules
                 ├── _typography.scss   # Sitewide Typography
 
-            ├── views/                 # App Views. Where components are stacked
+            ├── views/                 # Where components are stacked to form views
                 ├── home/               
                     ├── index.js       # Homepage View
-                ├── contact/           # To keep them modularized follow this structure:
-                    ├── index.js       # Your component's React code
-                    ├── index.scss     # Your component's scoped CSS
+                ├── contact/           
+                    ├── index.js     
+                    ├── index.scss     
 
 
-                
+
         ├── index.html                 # This HTML only uses build/ folder's files
 
     ├── main_process.js                # Electron's main process. Whole app is launched from here
     ├── package.json
-    ├── webpack.config.js              # Webpack4 setup
+    ├── webpack.config.js              # Webpack setup
 ```
