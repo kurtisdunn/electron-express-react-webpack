@@ -1,0 +1,12 @@
+@import "../../scss/colours";
+
+.card{
+  .card-header{
+    background-color: $gray;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 25px 15px 25px;
+    color: white;
+    font-size: 1.1875em;
+    font-weight: bold;
+  }
+}

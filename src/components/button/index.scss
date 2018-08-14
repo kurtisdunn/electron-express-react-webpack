@@ -1,0 +1,23 @@
+@import "../../scss/colours";
+@import "../../scss/mixins";
+
+.btn{
+  font-weight: 700;
+}
+.btn-full-rounded {
+    border-radius: 30px;
+}
+.btn-primary{
+  border: 2px solid $olive;
+  background: white;
+  margin: 25px 0px 0px 0px;
+  width: 100%;
+  color: $olive;
+  background-color: #FFFFFF;
+  &:hover, &:focus{
+    transition: $default_animation;
+    border: 2px solid $olive;
+    background: $olive;
+    color:white;
+  }
+}

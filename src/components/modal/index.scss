@@ -1,0 +1,27 @@
+.modal{
+
+  .modal-full {
+    background: rgba(23, 26, 28, 1.000);
+      min-width: 100%;
+      margin: 0;
+transition: all 450ms ease-in-out;
+  }
+
+  .modal-full .modal-content {
+      min-height: 100vh;
+  }
+  .modal-content {
+    color:#fff;
+    background: rgba(23, 26, 28, 1.000);
+  }
+}
+.close {
+  &:hover{
+  color: #fff;
+    text-decoration: none;
+    opacity: .75;
+}
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+    opacity: .5;
+}

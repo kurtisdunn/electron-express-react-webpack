@@ -1,0 +1,30 @@
+
+table{
+  // color: #fff
+}
+
+.table-cart>table>thead>tr>th,
+.table-cart>table>tbody>tr>th,
+.table-cart>table>tfoot>tr>th,
+.table-cart>table>thead>tr>td,
+.table-cart>table>tbody>tr>td,
+.table-cart>table>tfoot>tr>td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.table-cart>table>thead>tr>th,
+.table-cart>table>tbody>tr>th,
+.table-cart>table>tfoot>tr>th,
+.table-cart>table>thead>tr>td,
+.table-cart>table>tbody>tr>td,
+.table-cart>table>tfoot>tr>td {
+    vertical-align: middle;
+}
+.table-cart>table>thead>tr>th,
+.table-cart>table>tbody>tr>th,
+.table-cart>table>tfoot>tr>th,
+.table-cart>table>thead>tr>td,
+.table-cart>table>tbody>tr>td,
+.table-cart>table>tfoot>tr>td {
+   padding: 20px 0;
+}
